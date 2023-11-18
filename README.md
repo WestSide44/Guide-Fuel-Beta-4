@@ -1,7 +1,12 @@
-## Deploying the smart contract 
+## Deploy smart contract 
 
-  Ubuntu 22.04
-   
+(VPS) 
+
+Ubuntu 22.04
+  
+RAM 2 GB (Anything less will crash when the contract is deployed)
+
+
 ## Server Preparation
 
 Upgrade packages and the system
