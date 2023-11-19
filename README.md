@@ -24,6 +24,7 @@ Upgrade packages and the system
   ```
 
 [![3.png](https://i.postimg.cc/mg7hmJQp/3.png)](https://postimg.cc/mP2bDdp7)
+
 Press `y `
 
 install Git
