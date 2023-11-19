@@ -1,15 +1,15 @@
 ## Deploy smart contract 
 
-(VPS) 
+- VPS
 
-Ubuntu 22.04
+- Ubuntu 22.04
   
-RAM 2 GB (Anything less will crash when the contract is deployed)
+- RAM 2 GB (Anything less will crash when the contract is deployed)
 
 
 ## Server Preparation
 
-Upgrade packages and the system
+## Upgrade packages and the system
 
   
   ```
@@ -40,7 +40,7 @@ Let's check the version
   ```
 
 
-Install Rust Toolchain
+## Install Rust Toolchain
 
   ```
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
@@ -49,13 +49,13 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 Press `1`
 
-Configuring the Shell
+## Configuring the Shell
 
 ```
 source "$HOME/.cargo/env"
  ```
 
-Updating Rust
+## Updating Rust
 
   ```
 rustup update stable
@@ -65,7 +65,7 @@ rustup update stable
 rustup default stable
   ```
 
-install the Fuel toolchain
+## install the Fuel toolchain
 
 ```
 curl --proto '=https' --tlsv1.2 -sSf https://install.fuel.network/fuelup-init.sh | sh
@@ -75,7 +75,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://install.fuel.network/fuelup-init.sh
 
 Press `y`
 
-Configure PATH
+## Configure PATH
 
 ```
 export PATH="$HOME/.fuelup/bin:$PATH"
@@ -85,7 +85,7 @@ export PATH="$HOME/.fuelup/bin:$PATH"
 source /root/.bashrc
 ```
 
-Installs the toolchain
+## Installs the toolchain
 
 ```
 fuelup toolchain install beta-4
@@ -101,7 +101,8 @@ Check the version
 fuelup --version
 ```
 [![8.png](https://i.postimg.cc/s23zzDLS/8.png)](https://postimg.cc/v42kLMbH)
-create a contract folder
+
+## Create a contract folder
 
 ```
 mkdir fuel-project
@@ -111,7 +112,7 @@ mkdir fuel-project
 cd fuel-project
 ```
 
-contract creation
+## contract creation
 
 ```
 forc new counter-contract
@@ -179,26 +180,26 @@ vim counter-contract/src/main.sw
 ```
 [![11.png](https://i.postimg.cc/C1gHx9gW/11.png)](https://postimg.cc/d75TWHDB)
 
-`V` to enter visual line mode, i.e. selection mode
+- `V` to enter visual line mode, i.e. selection mode
 
-`i` for `insert` this immediately switches vim to insert mode
+- `i` for `insert` this immediately switches vim to insert mode
 
-delete the content and insert the contract address from the previous method or from the official manual
+delete the content and insert the contract address from the previous method or from the [official manual](https://docs.fuel.network/guides/quickstart/building-a-smart-contract/#writing-a-sway-smart-contract)
 
 After the changes have been made, do the following:
 
-Press `Esc` key to escape from Insert more
-Type `:w` and press `Enter` to save changes
-Type `:q` to close the document
+- Press `Esc` key to escape from Insert more
+- Type `:w` and press `Enter` to save changes
+- Type `:q` to close the document
 
 If you don't understand the controls in Vim mode, check out this [short tutorial](https://www.freecodecamp.org/news/vim-editor-modes-explained/)
 
-go to the contract folder
+#go to the contract folder
 ```
 cd counter-contract
 ```
 
-build the contract
+#build the contract
 
 ```
 forc build
@@ -206,9 +207,9 @@ forc build
 the result should be
 [![12.png](https://i.postimg.cc/9f0QQ8x4/12.png)](https://postimg.cc/jWVb8XYK)
 
-# Wallet setup
+## Wallet setup
 
-1) Import Existing Wallet 
+Import Existing Wallet 
 
 You will need to import the seedphrase from your `Fuel Wallet` extension.  If you don't have the extension, install it from the [Chrome store](https://chromewebstore.google.com/detail/fuel-wallet/dldjpboieedgcmpkchcjcbijingjcgok?hl=ru&utm_source=ext_sidebar) 
 
@@ -238,7 +239,7 @@ Enter your wallet password
 
 and you should see your wallet address in the terminal
 
-Creating a new wallet in the terminal
+# Creating a new wallet in the terminal
 
 ```
 forc wallet new
