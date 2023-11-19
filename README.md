@@ -1,4 +1,4 @@
-## Deploy smart contract 
+# Deploy smart contract 
 
 - VPS
 
@@ -27,7 +27,7 @@
 
 Press `y `
 
-install Git
+## install Git
   
   ```
 sudo apt-get install git-all
@@ -112,7 +112,7 @@ mkdir fuel-project
 cd fuel-project
 ```
 
-## contract creation
+## Contract creation
 
 ```
 forc new counter-contract
@@ -122,11 +122,11 @@ You should get the following
 
 The next step is to change the contract file, choose a method that is convenient for you:
 
-## 1 Way
+## - 1 Way
 
 Go to the specified path `fuel-project/counter-contract/src/main.sw` and modify the contract file using any graphical application. I use `MobaXterm Professional`
 
-## 2 Way
+## - 2 Way
 Open the file directly from the terminal
 
 ```
@@ -167,8 +167,9 @@ impl Counter for Contract {
 }
 ```
 
-## 3 way
-Install VIM 
+## - 3 way
+
+## Install VIM 
 
 ```
 sudo apt install vim
@@ -199,7 +200,7 @@ If you don't understand the controls in Vim mode, check out this [short tutorial
 cd counter-contract
 ```
 
-#build the contract
+## Build the contract
 
 ```
 forc build
@@ -239,7 +240,7 @@ Enter your wallet password
 
 and you should see your wallet address in the terminal
 
-# Creating a new wallet in the terminal
+## Creating a new wallet in the terminal
 
 ```
 forc wallet new
@@ -248,7 +249,7 @@ forc wallet new
 Enter the desired password 
 Be sure to save the seedphrase from your wallet
 
-Create a wallet account
+## Create a wallet account
 
 ```
 forc wallet account new
@@ -259,7 +260,7 @@ To deploy a smart contract you need some test tokens, go to [faucet](https://fau
 
 or open the faucet directly from your wallet
 
-Deploy smart contract
+## Deploy smart contract
 
 ```
 forc deploy --testnet
