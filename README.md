@@ -4,7 +4,7 @@
 
 - Ubuntu 22.04
   
-- RAM 2 GB (Anything less will crash when the contract is deployed)
+- SSD 2 GB (Anything less will crash when the contract is deployed)
 
 
 ## Server Preparation
