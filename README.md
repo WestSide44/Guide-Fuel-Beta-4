@@ -126,7 +126,7 @@ The next step is to change the contract file, choose a method that is convenient
 
 - ## 1 Way
 
-Go to the specified path `fuel-project/counter-contract/src/main.sw` and modify the contract file using any graphical application. I use `MobaXterm Professional`
+Go to the specified path `fuel-project/counter-contract/src/main.sw` and modify the contract file using any graphical application. I use **MobaXterm Professional**
 
 - ## 2 Way
 Open the file directly from the terminal
@@ -187,7 +187,7 @@ vim counter-contract/src/main.sw
 
 - `i` for `insert` this immediately switches vim to insert mode
 
-delete the content and insert the contract address from the previous method or from the [official manual](https://docs.fuel.network/guides/quickstart/building-a-smart-contract/#writing-a-sway-smart-contract)
+delete the content and insert the contract address from the previous method or from the **[official manual](https://docs.fuel.network/guides/quickstart/building-a-smart-contract/#writing-a-sway-smart-contract)**
 
 After the changes have been made, do the following:
 
@@ -195,7 +195,7 @@ After the changes have been made, do the following:
 - Type `:w` and press `Enter` to save changes
 - Type `:q` to close the document
 
-If you don't understand the controls in Vim mode, check out this [short tutorial](https://www.freecodecamp.org/news/vim-editor-modes-explained/)
+If you don't understand the controls in Vim mode, check out this **[short tutorial](https://www.freecodecamp.org/news/vim-editor-modes-explained/)**
 
 #go to the contract folder
 ```
@@ -258,7 +258,7 @@ forc wallet account new
 ```
 
 Getting tokens from the faucet
-To deploy a smart contract you need some test tokens, go to [faucet](https://faucet-beta-4.fuel.network/?address=fuel13hj0rj3r7443ka9dcv7g9mt89v7pdell2my60kdantx6jqq57yuqqsax06) and insert your wallet and get tokens
+To deploy a smart contract you need some test tokens, go to **[faucet](https://faucet-beta-4.fuel.network/?address=fuel13hj0rj3r7443ka9dcv7g9mt89v7pdell2my60kdantx6jqq57yuqqsax06)** and insert your wallet and get tokens
 
 or open the faucet directly from your wallet
 
