@@ -117,7 +117,9 @@ cd fuel-project
 ```
 forc new counter-contract
 ```
+
 You should get the following
+
 [![9.png](https://i.postimg.cc/nhhzK2HN/9.png)](https://postimg.cc/pp3RRD5B)
 
 The next step is to change the contract file, choose a method that is convenient for you:
