@@ -47,7 +47,6 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 [![6.png](https://i.postimg.cc/P56fVHC4/6.png)](https://postimg.cc/5XCMjZqY)
 
-
 Press `1`
 
 Configuring the Shell
@@ -72,6 +71,7 @@ install the Fuel toolchain
 curl --proto '=https' --tlsv1.2 -sSf https://install.fuel.network/fuelup-init.sh | sh
 ```
 [![7.png](https://i.postimg.cc/gc5vQ9ZG/7.png)](https://postimg.cc/PNWpvRy7)
+
 
 Press `y`
 
