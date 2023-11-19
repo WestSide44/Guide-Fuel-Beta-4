@@ -47,7 +47,8 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 [![6.png](https://i.postimg.cc/P56fVHC4/6.png)](https://postimg.cc/5XCMjZqY)
 
-Press `1 `
+
+Press `1`
 
 Configuring the Shell
 
