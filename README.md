@@ -15,17 +15,20 @@ Upgrade packages and the system
   ```
   apt update 
   ```
+
+![](https://i.imgur.com/76XATFV.png)
     
   
   ``` 
   apt upgrade
   ```
 
+![](/images/https://i.imgur.com/o87ah4q.png "Press y ")
+
 install Git
   
   ```
 sudo apt-get install git-all
-
   ```
 
 Let's check the version 
@@ -39,14 +42,12 @@ Install Rust Toolchain
 
   ```
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-
-  ```
+```
 
 Configuring the Shell
 
   ```
 source "$HOME/.cargo/env"
- 
  ```
 
 Updating Rust
