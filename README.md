@@ -124,11 +124,11 @@ You should get the following
 
 The next step is to change the contract file, choose a method that is convenient for you:
 
-## - 1 Way
+- ## 1 Way
 
 Go to the specified path `fuel-project/counter-contract/src/main.sw` and modify the contract file using any graphical application. I use `MobaXterm Professional`
 
-## - 2 Way
+- ## 2 Way
 Open the file directly from the terminal
 
 ```
@@ -169,7 +169,7 @@ impl Counter for Contract {
 }
 ```
 
-## - 3 way
+- ## 3 way
 
 ## Install VIM 
 
