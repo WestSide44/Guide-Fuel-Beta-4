@@ -318,7 +318,14 @@ forc wallet account new
 Getting tokens from the faucet
 To deploy a smart contract you need some test tokens, go to **[faucet](https://faucet-beta-4.fuel.network/?address=fuel13hj0rj3r7443ka9dcv7g9mt89v7pdell2my60kdantx6jqq57yuqqsax06)** and insert your wallet and get tokens
 
+
 or open the faucet directly from your wallet
+
+
+
+[![image.png](https://i.postimg.cc/Bvv4DqdM/image.png)](https://postimg.cc/MngCJ8ZQ)
+
+
 
 
 ## Deploy smart contract
