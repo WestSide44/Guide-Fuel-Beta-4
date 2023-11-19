@@ -328,21 +328,32 @@ or open the faucet directly from your wallet
 forc deploy --testnet
 ```
 
+
 [![16.png](https://i.postimg.cc/V6J4JpZg/16.png)](https://postimg.cc/sQR586rG)
+
+
 
 Re-enter the password
 
+
 [![17.png](https://i.postimg.cc/K8mNPRsR/17.png)](https://postimg.cc/pp1zxXvH)
+
+
 After entering your password, you need to enter your wallet index 
 enter `0` and press `y`
 
+
 Done
+
+
 [![18.png](https://i.postimg.cc/nhwDXr88/18.png)](https://postimg.cc/pmzT72Xk)
 
 
 check your transaction in [explorer](https://fuellabs.github.io/block-explorer-v2/beta-4/)
 
+
 [![19.png](https://i.postimg.cc/05fr6jmt/19.png)](https://postimg.cc/WtdsC25r)
+
 
 all right. You did it !
 
