@@ -205,7 +205,7 @@ impl Counter for Contract {
 - ## 3 way
 
 
-## Install VIM 
+### Install VIM 
 
 
 ```
