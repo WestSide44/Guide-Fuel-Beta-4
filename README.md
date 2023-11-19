@@ -16,14 +16,14 @@ Upgrade packages and the system
   apt update 
   ```
 
-![](https://i.imgur.com/76XATFV.png)
+![](https://i.imgur.com/FCnCxfi.png)
     
   
   ``` 
   apt upgrade
   ```
 
-![](/images/https://i.imgur.com/o87ah4q.png "Press y ")
+![](/https://i.imgur.com/o87ah4q.png "Press y ")
 
 install Git
   
