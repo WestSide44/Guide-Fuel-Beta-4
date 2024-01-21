@@ -81,6 +81,8 @@ rustup default stable
 ```
 curl --proto '=https' --tlsv1.2 -sSf https://install.fuel.network/fuelup-init.sh | sh
 ```
+
+
 [![7.png](https://i.postimg.cc/gc5vQ9ZG/7.png)](https://postimg.cc/PNWpvRy7)
 
 
@@ -120,6 +122,9 @@ Check the version
 ```
 fuelup --version
 ```
+
+
+
 [![8.png](https://i.postimg.cc/s23zzDLS/8.png)](https://postimg.cc/v42kLMbH)
 
 
